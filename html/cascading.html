@@ -59,11 +59,24 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Cascading styles</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>When calling redundant items in css, it will read top-to-bottom and the last read item will overwrite conflicting items. This is called cascading and is very handy for styling.</h3>
+      <p>When we have multiple paragraphs, we might have some styling we want applied to all paragraphs, but some styling may only apply to specific paragraphs. We can use cascading by setting the css for the specific paragraphs later, so that our css will style all paragraphs with a general rule, then overwrite the specific paragraphs with our cascaded style.</p>
+      <p>For example, here we will make all of our paragraph text larger and italic, and then cascade over that for paragraphs with the .specific class to make their font even larger. All of our text will be italic, with the .specific text being larger than the rest.</p>
       <div class="code">
+        <p>
+          p&nbsp;{<br />
+          &nbsp;&nbsp;font-size:&nbsp;1.2em;<br />
+          &nbsp;&nbsp;font-style:&nbsp;italic;<br />
+          }<br />
+          <br />
+          p&nbsp;.specific&nbsp;{<br />
+          &nbsp;&nbsp;font-size:&nbsp;1.6em;<br />
+          }
+        </p>
       </div>
       <div class="example">
+        <p id="cascade-example-default">This is how most paragraphs will look.</p>
+        <p id="cascade-example-specific">This is how paragraphs with the ".specific" class will look.</p>
       </div>
     </div>
   </body>

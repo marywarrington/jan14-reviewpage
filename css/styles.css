@@ -35,3 +35,13 @@ div.code {
   margin-top: 50px;
   border: 2px solid red;
 }
+
+#cascade-example-default {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#cascade-example-specific {
+  font-size: 1.6em;
+  font-style: italic;
+}
