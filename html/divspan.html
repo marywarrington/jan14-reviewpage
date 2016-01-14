@@ -59,11 +59,28 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Div and Span</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>Div and span are html elements we can use to select certain parts of our page for specific styling.</h3>
+      <p>We can wrap sections of our html in either the div tag or the span tag, letting us assign class and id tags to the selected sections for more granular styling. We can then use those classes and ids as selectors in css. Div is a block element, while span is an in-line element used for short snippets of html.</p>
+      <p>In the following example, we'll wrap a section of our page in a div tag with the class ".text-italic". A section within that will be wrapped in a span tag with the class ".text-big". Our css is set to style these classes accordingly.<p>
+      <div class="code-html">
+          <div class="text-italic">
+            <p>By using divs, we can take advantage of classes to style different html elements with one single css rule!</p>
+            <ul>
+              <li>It also lets us just style specific parts of text.</li>
+              <li><span class="text-big">So our other lists and paragraphs won't get this styling!</span></li>
+              <li>Divs and spans are really handy!</li>
+            </ul>
+          </div>
       </div>
       <div class="example">
+        <div class="text-italic">
+          <p>By using divs, we can take advantage of classes to style different html elements with one single css rule!</p>
+          <ul>
+            <li>It also lets us just style specific parts of text.</li>
+            <li><span class="text-big">So our other lists and paragraphs won't get this styling!</span></li>
+            <li>Divs and spans are really handy!</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>

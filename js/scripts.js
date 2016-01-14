@@ -4,6 +4,10 @@ $(document).ready(function(){
     $("body").toggleClass("red-background")
   });
 
+  $(".code-html").each(function(index, obj) {
+    $(this).text($(this).html());
+  });
+
   $("#branching-button").click(function() {
     var color = prompt("Type either 'green' or 'red'!");
       if (color === "green") {

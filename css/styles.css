@@ -15,6 +15,14 @@ div.code {
   width: 80%;
 }
 
+div.code-html {
+  background-color: #e2e2e2;
+  font-family: 'Courier New', Courier;
+  padding: 20px 0px 20px 30px;
+  width: 80%;
+  white-space: pre-wrap;
+}
+
 .JSReturn {
   color: #0400A5;
 }
@@ -48,4 +56,12 @@ div.code {
 
 .css-h1 {
   color: magenta;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-big {
+  font-size: 1.4em;
 }
