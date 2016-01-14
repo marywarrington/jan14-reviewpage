@@ -59,11 +59,26 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Branching</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>Branching is the implementation of "if...else" statements when using JavaScript.</h3>
+      <p>When running a function in JavaScript, you may want to have multiple possible results for a given action. For example, you might ask the user to choose a favorite color, and alter the background of the page depending on their answer. To accomplish this change, you could prompt the user to choose either red or green. <em>If</em> the user chooses red, the background is programmed to turn red, <em>else if</em> they choose green the background is programmed to turn green. You can add more <em>else if</em> conditions for other possible results. <em>Else</em> if they don't choose a color recognized by the page, you can tell them their choice was invalid as a fallback option.</p>
       <div class="code">
+        <p>
+          $("#branching-button").click(function()&nbsp;{<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;color&nbsp;=&nbsp;prompt("Type&nbsp;either&nbsp;'green'&nbsp;or&nbsp;'red'!");<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(color&nbsp;===&nbsp;"green")&nbsp;{<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$("body").removeClass();<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$("body").addClass("green-background")<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;if&nbsp;(color&nbsp;===&nbsp;"red")&nbsp;{<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$("body").removeClass();<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$("body").addClass("red-background")<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert("You&nbsp;didn't&nbsp;choose&nbsp;a&nbsp;color!&nbsp;Try&nbsp;again!")<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+          &nbsp;&nbsp;});
+        </p>
       </div>
       <div class="example">
+        <button type="button" class="btn btn-primary" id="branching-button">Click to launch our example!</button>
       </div>
     </div>
   </body>
