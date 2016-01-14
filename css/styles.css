@@ -90,3 +90,12 @@ div.code-html {
   border: 1px solid blue;
   border-radius: 5px;
 }
+
+#responsiveimg {
+  width: 80%;
+}
+
+#fixedimg {
+  margin-top: 15px;
+  width: 800px;
+}

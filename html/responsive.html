@@ -59,11 +59,21 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Responsive design</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>Responsive design is the practice of making webpages function and display nicely on devices of various sizes (e.g. smartphones, tablets, computers, etc.).</h3>
+      <p>There are multiple ways to make a site responsive. An easy way is to use Bootstrap and call their pre-defined size classes for your elements. Another way is to put media queries in your css file, telling the page to change the style at a breaking-point (when the screen is equal to a certain number of pixels). It's important not to set fixed-pixel-sizes for elements if you want a page to be responsive. Instead, you can use percentages to allow an element to re-size as the browser size changes.</p>
+      <p>The example below shows two images: the first is responsive, and will change size at different browser sizes. The second image has a fixed size and won't re-size.
+      <div class="code-html">
+        #responsiveimg {
+          width: 80%;
+        }
+
+        #fixedimg {
+          width: 800px;
+        }
       </div>
       <div class="example">
+        <img id="responsiveimg" src="../img/puppy.jpg" alt="cute great dane puppy">
+        <img id="fixedimg" src="../img/puppy.jpg" alt="cute great dane puppy">
       </div>
     </div>
   </body>
