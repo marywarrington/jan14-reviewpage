@@ -59,11 +59,16 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Attributes</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>An attribute is a piece of information used to affect a html element.</h3>
+      <p>Attributes help modify an element, such as a paragraph tag, to give it more specificity. For example, a class tag can be added and defined to style a specific paragraph. We can use jQuery to interactively modify attributes in the DOM without changing the page source.</p>
+      <p>In the following example we will show the JavaScript code that will change the page background-color attribute when the button is clicked.</p>
       <div class="code">
+      $("#attributes-button").click(function()&nbsp;{<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;$("body").toggleClass("red-background")<br />
+      &nbsp;&nbsp;});
       </div>
       <div class="example">
+        <button type="button" class="btn btn-primary" id="attributes-button">Click to toggle background!</button>
       </div>
     </div>
   </body>

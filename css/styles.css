@@ -18,3 +18,11 @@ div.code {
 .JSReturn {
   color: #0400A5;
 }
+
+.red-background {
+  background-color: #F75656;
+}
+
+.example {
+  margin-top: 15px;
+}
