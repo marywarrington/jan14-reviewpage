@@ -59,11 +59,19 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Box Model</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>The box model represents the space between text and the perimeter of an element, and between the perimeter of that element and the next. We can use it to style pages.</h3>
+      <p>Within every element, padding buffers the space between the content being displayed within the element's borders, and margin buffers the space between the element's borders and the adjacent elements. We can define these spaces to change the element's layout, as well as create a visual representation of the border itself.</p>
+      <p>The following css will make the element with the #box-example id moved away from the previous element, and outline its border in red.</p>
       <div class="code">
+        <p>
+          #box-example {
+            margin-top: 50px;
+            border: 2px solid red;
+          }
+        </p>
       </div>
       <div class="example">
+        <p id="box-example">See how it's moved?</p>
       </div>
     </div>
   </body>

@@ -26,3 +26,8 @@ div.code {
 .example {
   margin-top: 15px;
 }
+
+#box-example {
+  margin-top: 50px;
+  border: 2px solid red;
+}
