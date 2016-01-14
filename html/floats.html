@@ -59,11 +59,24 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Floats</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>Using the float property allows you to move and/or anchor elements around your page.</h3>
+      <p>Float is a property used in .css to move objects around your page. For example, you could float an image to the right, or a block of text to the left, to anchor them in your desired position. You can easily create a sidebar by floating a div to the left or the right, or group elements together (like a block of text to an image).</p>
+      <div class="code-html">
+        #floatleft {
+          float: left;
+        }
+
+        #floatright {
+          float: right;
+        }
       </div>
       <div class="example">
+        <div id="floatleft">
+          <p>Here's a paragraph inside of a div which we've floated to the left!</p>
+        </div>
+        <div id="floatright">
+          <p>Here's a paragraph inside of a div which we've floated to the right!</p>
+        </div>
       </div>
     </div>
   </body>

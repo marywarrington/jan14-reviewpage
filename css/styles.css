@@ -65,3 +65,13 @@ div.code-html {
 .text-big {
   font-size: 1.4em;
 }
+
+#floatleft {
+  float: left;
+  width: 50%;
+}
+
+#floatright {
+  float: right;
+  width: 50%;
+}
