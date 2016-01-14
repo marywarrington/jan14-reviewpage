@@ -75,3 +75,18 @@ div.code-html {
   float: right;
   width: 50%;
 }
+
+#column1 {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+#column2 {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+#column3 {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
