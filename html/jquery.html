@@ -59,11 +59,16 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>jQuery</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>jQuery is a JavaScript library that allows for easy interactivity on html pages.</h3>
+      <p>If a webpage is using jQuery, there is a jquery.js document referenced by the html. That jquery.js document contains JavaScript which defines functions and other features to make interacting with the page elements easy. Some of the things jQuery can accomplish are: submitting forms, showing/hiding elements, changing css attributes, etc.</p>
+      <p>In the following example we will show the JavaScript code that will change the page body background-color attribute when the button is clicked. This is a jQuery function being executed.</p>
       <div class="code">
+      $("#jquery-button").click(function()&nbsp;{<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;$("body").toggleClass("red-background")<br />
+      &nbsp;&nbsp;});
       </div>
       <div class="example">
+        <button type="button" class="btn btn-primary" id="attributes-button">Click to toggle background!</button>
       </div>
     </div>
   </body>
