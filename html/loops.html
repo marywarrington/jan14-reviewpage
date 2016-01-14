@@ -59,11 +59,19 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Looping</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>Looping is used to run JavaScript functions multiple times without having to write the code more than once.</h3>
+      <p>In order to keep your code "dry" (not cluttered with repetative code), you can use a loop! A loop will run through a function as many times as you tell it to, drawing on different values you provide. Looping is generally done using arrays, and can be helpful when you are doing slight variations on a similar task.</p>
+      <p>In the example below, we've created a looped function that will alert three times (because we've given it three values with which to alert you) when the button is pressed.</p>
+      <div class="code-html">
+        $("#loops-button").click(function() {
+          var loops = ['first', 'second', 'third'];
+            loops.forEach(function(loop) {
+            alert('Here is the ' + loop + ' alert!');
+          });
+        });
       </div>
       <div class="example">
+        <button type="button" class="btn btn-primary" id="loops-button">Click to launch our example!</button>
       </div>
     </div>
   </body>

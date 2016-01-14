@@ -30,4 +30,10 @@ $(document).ready(function(){
         alert("You clicked the button! Good job!")
     });
 
+  $("#loops-button").click(function() {
+    var loops = ['first', 'second', 'third'];
+      loops.forEach(function(loop) {
+      alert('Here is the ' + loop + ' alert!');
+    });
+  });
 });
