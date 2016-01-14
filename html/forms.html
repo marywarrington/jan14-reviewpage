@@ -59,11 +59,35 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>Forms</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>Forms allow you to get user input to manipulate with JavaScript to provide page interactivity.</h3>
+      <p>Adding a form to your page allows users to input information, which you can then pass on in JavaScript in order to modify the page based upon user input. Forms can be easily added to your page with Bootstrap, however they won't actually do anything without JavaScript.</p>
+      <p>In the following example, we'll show you the JavaScript code to broadcast an alert back to the user with the string they enter into the form "#form-example", as well as the html to create the form (assuming you're using Bootstrap).
+      <div class="code-html">
+        $("form").submit(function() {
+          var formInput = $("input#message").val();
+          alert("You said '" + formInput + "'.")
+        });
+      </div>
+      <br />
+      <div class="code-html">
+        <form id="form-example">
+          <div class="form-group">
+            <label for="message">Type a message here:</label>
+            <input id="message" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the message!</button>
+        </form>
       </div>
       <div class="example">
+        <form id="form-example">
+          <div class="form-group">
+            <label for="message">Type a message here:</label>
+            <input id="message" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the message!</button>
+        </form>
       </div>
     </div>
   </body>

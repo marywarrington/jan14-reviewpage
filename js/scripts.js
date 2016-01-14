@@ -21,5 +21,10 @@ $(document).ready(function(){
       }
   });
 
+  $("form").submit(function() {
+    var formInput = $("input#message").val();
+    alert("You said '" + formInput + "'.")
+  });
+
 
 });
