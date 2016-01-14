@@ -59,11 +59,17 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>JavaScript Functions</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
-      <div class="code">
+      <h3>A JavaScript function performs an action on an argument.</h3>
+      <p>JavaScript functions perform actions on their arguments and deliver a result. For example, the prompt function presents a box for the user to enter information. The argument for that prompt function is what appear to (or <em>prompt</em>) the user. Other functions are alert, confirm, submit, or anything you can define using JavaScript (e.g. you can make your own functions!).</p>
+      <p>In the following example, we're calling an alert function after you press the button.</p>
+      <div class="code-html">
+        $("#functions-button").click(function() {
+              alert("You clicked the button! Good job!")
+            };
+        });
       </div>
       <div class="example">
+        <button type="button" class="btn btn-primary" id="functions-button">Click to launch our example!</button>
       </div>
     </div>
   </body>

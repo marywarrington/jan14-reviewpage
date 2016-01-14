@@ -26,5 +26,8 @@ $(document).ready(function(){
     alert("You said '" + formInput + "'.")
   });
 
+  $("#functions-button").click(function() {
+        alert("You clicked the button! Good job!")
+    });
 
 });
