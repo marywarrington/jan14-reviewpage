@@ -59,11 +59,17 @@
 <!-- End Navbar -->
     <div class="container">
       <h1>CSS</h1>
-      <h3>SUMMARY</h3>
-      <p>DEFINITION/EXPLANATION</p>
+      <h3>CSS stands for "cascading style sheet" and is a language used to format the visual display of an html page.</h3>
+      <p>A .css file generally contains many styling rules that are then applied to any .html file linking to it. Rather than putting style elements in the .html file itself, which can clutter the page and make editing tedious, CSS lets us globally define styles for html elements. For example, in your .css file you can set a style to be applied to <em>every</em> h1 tag in your .html. This will give every h1 tag in your .html the same styling, without having to define it in the .html document itself. Then, if you ever want to change the given styling, you only have to change one line of code.</p>
       <div class="code">
+        h1&nbsp;{<br />
+        &nbsp;&nbsp;color:&nbsp;magenta;<br />
+        }
       </div>
       <div class="example">
+        <h1 class="css-h1">Here's a heading!</h1>
+        <h1 class="css-h1">Here's another heading!</h1>
+        <h1 class="css-h1">They all look the same, with only one line of code!</h1>
       </div>
     </div>
   </body>
