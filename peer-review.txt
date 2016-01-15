@@ -1,0 +1,12 @@
+Is the Github documentation - commits and README - thorough and descriptive?
+  nice work on the README commit messages are thorough, descriptive. could commit more often. make sure tense is correct.
+Is the code easy to read (good indentation, spacing, naming)?
+  Code looks very clean and easy to follow.
+Were branching and looping used effectively?
+  All code worked correctly
+Is the web page(s) styled using Bootstrap and CSS?
+  Both bootstrap and css are used.
+Is the site user-friendly?
+  Yes
+Do you have any additional constructive criticism or positive feedback to share?
+  Love the title bar. Really like the layout, nice work on so much content.
